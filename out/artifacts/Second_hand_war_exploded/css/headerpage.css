@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#alldis{
+    width: 100%;
+    height: 100px;
+    background-color: #8dbfd9;
+}
+#dis{
+    width: 1215px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #8dbfd9;
+}
+#tit{
+    position: absolute;
+    top: 30px;
+    font-size: 40px;
+    color: #0085b5;
+    font-family: "华文行楷";
+}
+#dis_1{
+    position: absolute;
+    right: 0px;
+    font-size: 20px;
+
+}
+#dis_1 a{
+    color: #e6f2f7;
+    text-decoration: none;
+}
+#dis_1 a:hover{
+    color: #0085b5;
+}
+#dis_2{
+    position: absolute;
+    right: 0px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+}
+#dis_2 a{
+    color: #e6f2f7;
+    text-decoration: none;
+}
+#dis_2 a:hover{
+    color: #0085b5;
+}
+#dis_3{
+    position: absolute;
+    bottom: 10px;
+    left: 350px;
+}
+#dis_3_1{
+    width: 300px;
+    height: 36px;
+    border: #c0deed 2px solid;
+    font-size: 20px;
+    color: #0085b5;
+    padding-left: 10px;
+    background-color: #e6f2f7;
+}
+#dis_3_2{
+    width: 100px;
+    height: 36px;
+    border: #c0deed 2px solid;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #0085b5;
+    background-color: #e6f2f7;
+    cursor: pointer;
+}
+#dis_3_2:hover{
+    color: #e6f2f7;
+    background-color: #0085b5;
+}

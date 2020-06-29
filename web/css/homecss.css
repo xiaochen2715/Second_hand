@@ -1,0 +1,209 @@
+body{
+    background-color: #ffffff;
+}
+/************************************/
+#div2{
+    width: 1215px;
+    height: 400px;
+    margin: 0 auto;
+    border: rgba(102,117,128,0.5) 1px solid;
+}
+/* #navigation{
+    z-index: 5;
+    position: absolute;
+}
+#slideshow{
+    position: absolute;
+    z-index: 1;
+} */
+#navigation{
+    float: left;
+}
+#navigation ul{
+    padding: 0;
+    margin: 0;
+}
+#navigation li{
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    list-style: none;
+    background-color: #0085b5;
+    text-align: center;
+}
+#navigation ul li ul{
+    /*display: none;*/
+}
+#navigation ul li a,ul li ul li a{
+    text-decoration: none;
+    margin: 0 auto;
+    color: #e6f2f7;
+}
+#navigation ul li:hover ul{display: inline;}
+#navigation ul li ul li:hover{
+    background-color: #e6f2f7;
+}
+#navigation ul li ul li:hover a{color: #0085b5;}
+
+#othershow{
+    width: 1210px;
+    height: 400px;
+    background-color: #ffffff;
+}
+#recom{
+    width: 660px;
+    height: 400px;
+    border-left: rgba(102,117,128,0.5) 4px dashed;
+    border-right: rgba(102,117,128,0.5) 2px dashed;
+    background-color: #ffffff;
+    float: left;
+}
+#noandde{
+    width: 400px;
+    height: 400px;
+    border-left: rgba(102,117,128,0.5) 2px dashed;
+    float: left;
+    background-color: #ffffff;
+}
+#noandde a,#recom a{
+    line-height: 30px;
+    font-size: 18px;
+    color: #58aced;
+    font-weight: bold;
+}
+
+#noandde a:hover,#recom a:hover{
+    border-bottom: rgba(102,117,128,0.64) 1px solid;
+}
+#notice,#demand{
+    height: 200px;
+}
+/*********************************************/
+table{
+    width: 1200px;
+    /*border: royalblue 3px solid;*/
+    /*text-align: center;*/
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+table tr td{
+    width: 240px;
+    height: 400px;
+    border: rgba(102,117,128,0.5) 1px solid;
+    background-color: #ffffff;
+}
+table tr td a{
+    text-decoration-line: none;
+    color: black;
+}
+/*table tr td div{*/
+/*    background-color: fuchsia;*/
+/*    width: 200px;*/
+/*    height: 260px;*/
+/*    margin: 20px 20px 20px 20px;*/
+/*}*/
+#goodscase{
+    background-color: #ffffff;
+    width: 210px;
+    height: 380px;
+    margin: 10px 15px 10px 15px;
+    /*border: crimson 1px dashed;*/
+    position: relative;     /*相对位置*/
+}
+/*table tr td div img{*/
+/*    width: 200px;*/
+/*    height: 160px;*/
+/*}*/
+#goodscase div{
+    width: 210px;
+    height: 280px;
+    overflow: hidden;       /*图片超出范围的部分隐藏*/
+    text-align: center;
+    /*border: black 1px solid;*/
+}
+#goodscase div img{
+    width: auto;
+    height: 280px;
+}
+#goodscase_p1{
+    margin-top: 10px;
+}
+#goodscase_p2{
+    position: absolute;
+    bottom: 2px;
+}
+/*table tr td:hover{*/
+/*    !*background-color: oldlace;*!*/
+/*    transform: scale(1.05);*/
+/*}*/
+#goodscase:hover{
+    /*border: crimson 1px solid;*/
+    /*transform: scale(1.04);*/
+}
+table tr td:hover{
+    border-color: #2b8aff;
+    box-shadow: 0 0 10px rgba(63,132,181,0.64);
+}
+/*************返回顶部******************/
+#aa{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 5;
+}
+#aa img{
+    width: 50px;
+    height: 50px;
+}
+/**********悬浮窗**********/
+#hiddiv{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(102,117,128,0.64);
+    position: fixed;
+    top: 0;bottom: 0;margin: auto;
+    left: 0;right: 0;
+    z-index: 99;
+    opacity: 0.9;
+    display: none;
+}
+.floating{
+    width: 700px;
+    height: 800px;
+    background-color: #8dbfd9;
+    position: fixed;
+    top: 0;bottom: 0;margin: auto;
+    left: 0;right: 0;
+    border: #000000 2px solid;
+    box-shadow: 0 0 20px #000000;
+    display: none;
+    z-index: 100;
+}
+.floating_close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.floating_close a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #e6f2f7;
+}
+.floating_close a:hover{
+    color: #0085b5;
+}
+.floating_main{
+    background-color: #8dbfd9;
+    width: 600px;
+    height: 700px;
+    margin: 50px auto;
+    position: relative;
+}
+.fmw{
+    width: 600px;
+    word-break: break-all;
+
+}

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: #8dbfd9;
+}
+#header_1{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #8dbfd9;
+}
+#tit{
+    font-size: 40px;
+    color: #0085b5;
+    font-family: "华文行楷";
+    position: absolute;
+    top: 30px;
+    left: 400px;
+}
+#header_1 a{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    color: #e6f2f7;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#header_1 a:hover{
+    color: #0085b5;
+}
+/************************************/
+#fun{
+    width: 1200px;
+    height: 30px;
+    margin: 30px auto;
+}
+#fun a{
+    color: #0085b5;
+    text-decoration: none;
+    font-size: 22px;
+}
+#fun a:hover{
+    color: #8dbfd9;
+    border-bottom: #8dbfd9 2px solid;
+}
+/**************************************/
+#main{
+    width: 1200px;
+    margin: 0 auto;
+}
+#dleft{
+    width: 800px;
+    float: left;
+    background-color: snow;
+}
+#dright{
+    width: 400px;
+    float: left;
+    background-color: snow;
+}
+#dleft th{
+    vertical-align: top;
+}
+#main textarea{
+    width: 600px;
+    height: 120px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 22px;
+    resize: none;
+    border: #c0deed 2px solid;
+    color: #0085b5;
+    background-color: #e6f2f7;
+}
+
+#inpu{
+    width: 300px;
+    height: 30px;
+    border: #c0deed 2px solid;
+    margin-left: 10px;
+    padding-left: 10px;
+    color: #0085b5;
+    background-color: #e6f2f7;
+}
+#butt{
+    width: 120px;
+    height: 40px;
+    font-size: 21px;
+    padding: 0;
+    color: #0085b5;
+    background-color: #e6f2f7;
+    cursor: pointer;
+}
+#butt:hover{
+    background-color: #0085b5;
+    color: #e6f2f7;
+}
+#dright a{
+    line-height: 30px;
+    font-size: 18px;
+    color: #58aced;
+    font-weight: bold;
+    text-decoration: none;
+}
+#dright a:hover{
+    border-bottom: rgba(102,117,128,0.64) 1px solid;
+}

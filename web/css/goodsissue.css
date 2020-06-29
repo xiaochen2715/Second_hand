@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: #8dbfd9;
+}
+#header_1{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #8dbfd9;
+}
+#tit{
+    font-size: 40px;
+    color: #0085b5;
+    font-family: "华文行楷";
+    position: absolute;
+    top: 30px;
+    left: 400px;
+}
+#header_1 a{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    color: #e6f2f7;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#header_1 a:hover{
+    color: #0085b5;
+}
+/************************************/
+#fun{
+    width: 1200px;
+    height: 30px;
+    margin: 30px auto;
+}
+#fun a{
+    color: #0085b5;
+    text-decoration: none;
+    font-size: 22px;
+}
+#fun a:hover{
+    color: #8dbfd9;
+    border-bottom: #8dbfd9 2px solid;
+}
+#table1{
+    margin: 50px auto;
+    border-top: #000000 1px solid;
+}
+#box{
+    width: 1200px;
+    height: 300px;
+    /* background-color: #F5DEB3; */
+    position: relative;
+    border-bottom: #000000 1px solid;
+}
+#box:hover{
+    border-bottom: #2b8aff 1px solid;
+}
+#box_1{
+    width: 210px;
+    height: 280px;
+    /* background-color: saddlebrown; */
+    float: left;
+    border: #c0deed 2px solid;
+}
+#box_1 img{
+    width: 210px;
+    height: 280px;
+
+}
+#box_2{
+    width: 586px;
+    height: 280px;
+    /* background-color: goldenrod; */
+    float: left;
+    font-size: 20px;
+}
+#box_2 p,#box_3 p,#box_3_2 p{
+    width: 500px;
+    word-wrap: break-word;
+    margin-left: 45px;
+}
+#box_2 textarea{
+    width: 500px;
+    height: 80px;
+    margin-left: 45px;
+    resize: none;
+    border: #c0deed 2px solid;
+    font-size: 20px;
+    color: #0085b5;
+    padding-left: 10px;
+    background-color: #e6f2f7;
+}
+#box_3{
+    width: 400px;
+    height: 280px;
+    /* background-color: #FFD5CC; */
+    float: left;
+}
+#box_3_1{
+    width: 400px;
+    height: 140px;
+    /* background-color: azure; */
+
+}
+.rad{
+    width: 30px;
+    height: 20px;
+
+}
+#box_3_2{
+    width: 400px;
+    height: 140px;
+    /* background-color: aquamarine; */
+}
+#box_3_2 p{
+    position: absolute;
+    bottom: 60px;
+    color: forestgreen;
+}
+#butt_1{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+#butt_1:hover{
+    color: #e6f2f7;
+    background-color: #0085b5;
+}
+input{
+    width: 230px;
+    height: 30px;
+    border: #c0deed 2px solid;
+    font-size: 20px;
+    color: #0085b5;
+    padding-left: 10px;
+    background-color: #e6f2f7;
+}
+/*****************************************************/
+#main{
+    width: 1200px;
+    height: auto;
+    /*border: deeppink 1px dashed;*/
+    margin: 0px auto;
+    font-size: 20px;
+    display: none;
+    /*line-height: 50px;*/
+    /*background-color: wheat;*/
+}
+#main table{
+    margin: 20px auto;
+    border: #0085b5 10px groove;
+}
+#main table th,td{
+    vertical-align: top;    /*靠上*/
+    /*border: rgba(255,255,255,0) 10px solid; !*设置透明边框*!*/
+}
+#main input{
+    height: 30px;
+    border: #c0deed 2px solid;
+    padding-left: 10px;
+    color: #0085b5;
+    background-color: #e6f2f7;
+}
+#main select{
+    height: 30px;
+    border: none;
+    border: #c0deed 2px solid;
+    color: #0085b5;
+    background-color: #e6f2f7;
+}
+#main textarea{
+    width: 780px;
+    height: 120px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 22px;
+    resize: none;
+    border: #c0deed 2px solid;
+    color: #0085b5;
+    background-color: #e6f2f7;
+}
+#butt{
+    width: 150px;
+    height: 50px;
+    font-size: 23px;
+    padding: 0;
+    color: #0085b5;
+    background-color: #e6f2f7;
+    cursor: pointer;
+}
+#sp1{
+    width: 130px;
+    height: 40px;
+    border: #c0deed 2px solid;
+    color: #0085b5;
+    background-color: #e6f2f7;
+    position: relative;
+    line-height: 40px;
+    text-align: center;
+}
+#sp1:hover{
+    color: #e6f2f7;
+    background-color: #0085b5;
+}
+#file{
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    color: #0085b5;
+    opacity: 0;     /*透明*/
+    position: absolute;
+    left: 0px;
+}
+#butt:hover{
+    background-color: #0085b5;
+    color: #e6f2f7;
+}
+#imgarea{
+    width: 240px;
+    height: 320px;
+    border: #c0deed 2px solid;
+}
+#img3{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
